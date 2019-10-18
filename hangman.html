@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title> hangman Aaron Klaus </title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <h1> Lets Play Hangman!</h1>
+
+    <div id="welcomeScreen">
+        Welcome to the game! please press start then choose a difficulty to play!
+        <br/>
+        <button id="startButton">Start</button>
+    </div>
+
+    <div id="difficultyScreen" class="hidden">
+        Enter move:
+    <select id=difficultyForm>
+    <option id="easy">easy</option>   
+    <option id="medium">medium</option>
+    <option id="hard">hard</option>
+    <input type=submit id="difficultySubmitButton">
+    </select>
+    </div>
+
+    <div id="gameScreen" class="hidden">
+        Please enter your guess:
+        <select id=userGuess>
+            <option id="A">A</option>   
+            <option id="B">B</option>
+            <option id="C">C</option>
+            <option id="D">D</option>   
+            <option id="E">E</option>
+            <option id="F">F</option>
+            <option id="G">G</option>   
+            <option id="H">H</option>
+            <option id="I">I</option>
+            <option id="J">J</option>   
+            <option id="K">K</option>
+            <option id="L">L</option>
+            <option id="M">M</option>   
+            <option id="N">N</option>
+            <option id="O">O</option>
+            <option id="P">P</option>   
+            <option id="Q">Q</option>
+            <option id="R">R</option>
+            <option id="S">S</option>   
+            <option id="T">T</option>
+            <option id="U">U</option>
+            <option id="V">V</option>   
+            <option id="W">W</option>
+            <option id="X">X</option>
+            <option id="Y">Y</option>   
+            <option id="Z">Z</option>
+            <input type=submit id="letterSubmitButton">
+            
+            </select></div>
+            <div id="gameBoard" class="hidden">
+                <h1>GameBoard</h1>
+            </div>
+    
+
+<script src="hangman.js"></script>
+<script src="ajax.js"></script>
+</body>
+
+
+
+
+</html>
